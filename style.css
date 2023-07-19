@@ -279,3 +279,38 @@ a {
   opacity: 1;
   z-index: 200;
 }
+
+/* ======== play instant ===== */
+.play-instant {
+  display: flex;
+  justify-content: flex-end;
+  gap: 120px;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.play-instant-content {
+  max-width: 50%;
+  text-align: right;
+}
+
+.play-instant-content .section__des {
+  max-width: 350px;
+  margin-top: 24px;
+}
+
+.play-instant-img .big-img {
+  max-width: 100%;
+}
+
+.play-instant-img {
+  position: relative;
+}
+.abs-img img {
+  max-width: 100%;
+}
+
+.play-instant-img .abs-img {
+  position: absolute;
+  bottom: -65px;
+  left: -80px;
+}

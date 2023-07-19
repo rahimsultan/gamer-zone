@@ -51,6 +51,23 @@
   .cards {
     flex-wrap: wrap;
   }
+  /* Play Instant */
+  .play-instant {
+    flex-direction: column;
+    gap: 60px;
+  }
+  .play-instant-content {
+    max-width: 100%;
+    text-align: center;
+  }
+  .play-instant-img .big-img {
+    margin-left: 100px;
+    max-width: 80%;
+  }
+  .play-instant-img .abs-img {
+    max-width: 80%;
+    left: 0px;
+  }
 
   /* Media end 768px */
 }
@@ -121,5 +138,22 @@
   /* ======== funny Video ======== */
   .cards {
     flex-direction: column;
+  }
+  .play-instant {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .play-instant-content {
+    max-width: 100%;
+    text-align: center;
+  }
+  .play-instant-img .big-img {
+    margin-left: 60px;
+    max-width: 80%;
+  }
+  .play-instant-img .abs-img {
+    max-width: 45%;
+    left: 0px;
+    bottom: -40px;
   }
 }
