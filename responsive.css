@@ -49,8 +49,10 @@
 
   /* Funny Video */
   .cards {
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
+
   /* Play Instant */
   .play-instant {
     flex-direction: column;
@@ -64,9 +66,22 @@
     margin-left: 100px;
     max-width: 80%;
   }
+
   .play-instant-img .abs-img {
     max-width: 80%;
     left: 0px;
+  }
+  /* instant play two */
+  .play-instant-two {
+    flex-direction: column-reverse;
+  }
+  .play-instant-img-two .abs-img {
+    max-width: 80%;
+    right: 0px;
+  }
+  .play-instant-img-two .big-img {
+    margin-right: 100px;
+    max-width: 80%;
   }
   /* ===== games ===== */
   .games {
@@ -163,8 +178,10 @@
   }
   /* ======== funny Video ======== */
   .cards {
+    display: flex;
     flex-direction: column;
   }
+  /* play instant one */
   .play-instant {
     flex-direction: column;
     gap: 50px;
@@ -180,6 +197,19 @@
   .play-instant-img .abs-img {
     max-width: 45%;
     left: 0px;
+    bottom: -40px;
+  }
+  /* instant play two */
+  .play-instant-two {
+    flex-direction: column-reverse;
+  }
+  .play-instant-img-two .big-img {
+    margin-right: 60px;
+    max-width: 80%;
+  }
+  .play-instant-img-two .abs-img {
+    max-width: 45%;
+    right: 0px;
     bottom: -40px;
   }
   /*  */
