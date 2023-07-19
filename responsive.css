@@ -1,0 +1,125 @@
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 90%;
+    padding: 0px;
+  }
+  header {
+    padding: 30px 0px;
+  }
+  .navbar .logo {
+    font-size: 35px;
+  }
+  .navbar .logo img {
+    max-width: 75px;
+  }
+  .navbar ul {
+    gap: 20px;
+  }
+  /* ================= */
+  .header-banner-full {
+    background: none;
+  }
+  .header-banner {
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+
+  .header-content {
+    text-align: center;
+    background-image: url("./images/Group14.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+  }
+  /* ============ we are gamer =========== */
+  .w-r-gamer {
+    flex-direction: column;
+  }
+  .w-r-content {
+    text-align: center;
+    max-width: 100%;
+  }
+  .quote-text {
+    font-size: 20px;
+  }
+  .quote {
+    font-size: 23px;
+  }
+
+  /* Funny Video */
+  .cards {
+    flex-wrap: wrap;
+  }
+
+  /* Media end 768px */
+}
+
+/* =================== 576px ======================= */
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 90%;
+    padding: 0px;
+  }
+  header {
+    padding: 20px 0px;
+  }
+  .navbar {
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+  }
+  .navbar ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+  /* Header Banner */
+  .header-banner-full {
+    background: none;
+  }
+  .header-banner {
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+
+  .header-content {
+    text-align: center;
+    background-image: url("./images/Group14.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+  }
+  .header-content h3 {
+    font-size: 40px;
+  }
+  .header-content h1 {
+    font-size: 85px;
+    margin-bottom: 20px;
+  }
+  .list {
+    font-size: 18px;
+    gap: 10px;
+  }
+  .btn {
+    padding: 10px 30px;
+  }
+  /* ==================== */
+  .w-r-gamer {
+    flex-direction: column;
+  }
+  .w-r-content {
+    text-align: center;
+    max-width: 100%;
+  }
+  .quote-text {
+    font-size: 20px;
+  }
+  .quote {
+    font-size: 23px;
+  }
+  /* ======== funny Video ======== */
+  .cards {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.btn {
+  padding: 10px 40px;
+  background: #4ec5f7;
+  border-radius: 48px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn-pink {
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+}
+
+.gradient-text {
+  background: linear-gradient(#f948b2, #8758f1);
+  color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+}
+
+.section__title {
+  font-size: 48px;
+  font-weight: 700;
+}
+.section__des {
+  color: #534c64;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* Header */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-size: 45px;
+  font-weight: 700;
+  color: #0b0223;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .logo img {
+  max-width: 85px;
+  margin-right: 10px;
+}
+.navbar .logo span {
+  color: #ff42a5;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.top-social {
+  background: rgba(11, 2, 35, 0.1);
+  border-radius: 8px;
+  padding: 18px 25px;
+  color: #3c354f;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.top-social i {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.top-social .fa-youtube {
+  color: red;
+}
+
+.navbar ul li a {
+  color: #3c354f;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Header Banner */
+.header-banner-full {
+  background-image: url("./images/Group14.png");
+  background-position: top 0 left 0;
+  background-repeat: no-repeat;
+}
+.header-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content h3 {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.header-content h1 {
+  font-size: 95px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  margin-top: 0px;
+}
+.header-content .btn-group {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.list {
+  color: #534c64;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: lowercase;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.header-img img {
+  max-width: 100%;
+}
+
+/* We Are Gamer */
+
+.w-r-gamer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.w-r-img img {
+  max-width: 100%;
+}
+
+.w-r-content {
+  text-align: right;
+  max-width: 50%;
+}
+
+.w-r-content .section__title {
+  margin-bottom: 24px;
+}
+.w-r-content .section__des {
+  margin-bottom: 32px;
+}
+
+.quote-text {
+  color: #534c64;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 24px;
+}
+.quote {
+  font-size: 32px;
+  font-weight: 700;
+}
+/* ======== funny videos ========= */
+.funny-videos {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.funny-videos .section__title {
+  margin-bottom: 24px;
+}
+.funny-videos .section__des {
+  margin-bottom: 45px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  width: 342px;
+  height: 500px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.card-img img {
+  max-width: 100%;
+}
+.card-text {
+  color: #534c64;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 24px;
+  text-align: left;
+}
+.card-img {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.card-img::after {
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 10px;
+  position: absolute;
+  transition: 5s;
+  z-index: 2;
+  background: rgba(11, 2, 35, 0.8);
+  display: none;
+}
+
+.card-img:hover.card-img::after {
+  display: block;
+}
+
+.hover {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  opacity: 0;
+}
+
+.hover i {
+  color: white;
+  font-size: 48px;
+}
+.hover span {
+  color: #ff42a5;
+  font-size: 20px;
+  font-weight: 600;
+}
+.card-img:hover .hover {
+  opacity: 1;
+  z-index: 200;
+}
