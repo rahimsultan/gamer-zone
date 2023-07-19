@@ -88,6 +88,13 @@
     font-size: 14px;
   }
 
+  /* ======== footer ======== */
+  .footer-link {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
   /* Media end 768px */
 }
 
@@ -196,5 +203,52 @@
   }
   .game-name {
     font-size: 14px;
+  }
+
+  /* ======== Footer ====== */
+  .footer {
+    max-width: 1005;
+    padding: 60px 40px 40px;
+  }
+
+  .footer .logo {
+    font-size: 35px;
+    margin-bottom: 45px;
+  }
+
+  .footer .logo img {
+    max-width: 75px;
+  }
+  .top-footer-link {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  .footer-link {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .footer-link li {
+    font-size: 16px;
+  }
+
+  .social-link {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin: 30px 0px;
+  }
+
+  .social-link i {
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+  }
+
+  .copy-text {
+    font-size: 14px;
+    margin-top: 30px;
+    text-align: center;
   }
 }
