@@ -178,8 +178,7 @@
   }
   /* ======== funny Video ======== */
   .cards {
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
   /* play instant one */
   .play-instant {

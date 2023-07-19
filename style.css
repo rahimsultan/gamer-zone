@@ -220,6 +220,7 @@ a {
   height: 500px;
   border-radius: 16px;
   cursor: pointer;
+  margin: 0 auto;
 }
 .card-img img {
   max-width: 100%;
