@@ -68,6 +68,25 @@
     max-width: 80%;
     left: 0px;
   }
+  /* ===== games ===== */
+  .games {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .game {
+    gap: 8px;
+    width: auto;
+    padding: 5px;
+  }
+  .game-img {
+    width: 48px;
+  }
+  .game-img img {
+    max-width: 100%;
+  }
+  .game-name {
+    font-size: 14px;
+  }
 
   /* Media end 768px */
 }
@@ -155,5 +174,27 @@
     max-width: 45%;
     left: 0px;
     bottom: -40px;
+  }
+  /*  */
+  .games {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+  }
+  .game {
+    gap: 8px;
+    /* width: 150px; */
+    width: auto;
+    padding: 5px;
+  }
+  .game-img {
+    width: 48px;
+  }
+  .game-img img {
+    max-width: 100%;
+  }
+  .game-name {
+    font-size: 14px;
   }
 }
